@@ -1,0 +1,55 @@
+*{
+    font-family: 'Single Day', cursive;
+}
+div h1{
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+div.calc{
+    background-color: silver;
+    padding: 10px;
+    width: 450px;
+    flex:1;
+}
+.inputspace{
+    width: 95%;
+    background-color: white;
+    margin-left: 2px;
+    margin-top: 2px;
+    padding-left: 13px;
+    height: 60px;
+}
+p#inp{
+    font-size: 3rem;
+    display: inline;
+    height: 50px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
+.button{
+    background-color: whitesmoke;
+    margin: 10px;
+    height: 90px;
+    flex: 3;
+    text-align: center;
+    border-radius: 50%;
+}
+.buttonRow{
+    display: flex;
+}
+.button p{
+    color: black;
+    margin-top: 25px;
+    font-size: 2rem;
+}
+.op{
+    background-color: grey;
+}
+.op p{
+    color: white;
+}
+.c{
+    background-color: #da1414;
+}
